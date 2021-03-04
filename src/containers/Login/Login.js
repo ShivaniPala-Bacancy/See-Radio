@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import seeRadioIcon from '../../assets/seeRadio.png';
 const Login=()=>{
-
+    console.log('login');
     const eye = <FontAwesomeIcon icon={faEye} />;
     const [passwordShown, setPasswordShown] = useState(false);
     const togglePasswordVisiblity = () => {
